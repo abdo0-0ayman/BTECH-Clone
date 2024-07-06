@@ -221,6 +221,7 @@ footer {
         display: flex;
         font-family: 'ibm-plex-sans-arabic', sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-style: normal;
+        margin-bottom: 24px;
 }
 
 #support i,
@@ -248,4 +249,71 @@ p {
 
 .fa-solid .fa-phone {
         font-size: large;
+}
+
+#blocks {
+        font-family: 'ibm-plex-sans-arabic', sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-style: normal;
+        display: flex;
+        border-top: 1px solid rgba(81, 83, 85, .7);
+        padding: 24px 0;
+        border-bottom: 1px solid rgba(81, 83, 85, .7);
+}
+
+#blocks .block {
+        width: 278px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+}
+
+#blocks .block h1 {
+        font-size: 16px;
+        padding-bottom: 4px;
+        color: white;
+}
+
+#blocks .block p {
+        padding-bottom: 16px;
+        font-size: 14px;
+        color: #a6a9ae;
+}
+
+#blocks .block #first-block {
+        margin-bottom: 32px;
+}
+
+#blocks .block #first-block img {
+        padding-right: 15px;
+        width: 24px;
+        height: 24px;
+}
+
+#blocks .block #second-block img {
+        padding-bottom: 4px;
+}
+
+#blocks .block #second-block #IOS {
+        width: 96px;
+        height: 32px;
+}
+
+#blocks .block #second-block #Google {
+        width: 105px;
+        height: 31px;
+}
+
+#blocks .block #second-block #Huawei {
+        width: 103px;
+        height: 31px;
+}
+
+#copy-right {
+        display: flex;
+}
+
+#copy-right p {
+        padding-top: 24px;
+        padding-left: 12px;
+        font-size: 10px;
+        color: #a6a9ae;
 }
